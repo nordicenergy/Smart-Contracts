@@ -1,12 +1,12 @@
 
 # Nordic Energy Platform:
-----------------------
+
 
 
 
 ## Blockchain Stack:
------------------
-## Nordic Energy´s PowerChain is a blockchain-based IoT-platform consists of two parts; JavaScript app and eosio blockchain: 
+
+#### Nordic Energy´s PowerChain is a blockchain-based IoT-platform consists of two parts; JavaScript app and eosio blockchain: 
 
 •	JavaScript Stack:  ReactJS, Redux, NodeJS, Webpack
 
@@ -22,11 +22,13 @@ Blockchain is a decentralized, distributed store of transaction data. Periodical
 
 
 ## EOSIO
+
 The EOSIO software introduces a new blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications. It differs from other blockchains by using features such as DPos as the consensus algorithm and staking for resource allocation. The software provides accounts, authentication, databases, asynchronous communication, and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees, and allows for quick and easy deployment of decentralized applications.
 
  
 
 ## What is a Smart Contract?
+
 An EOSIO Smart Contract is software registered on the blockchain and executed on EOSIO nodes. Smart Contracts implement the semantics of a "contract" and action requests are automatically stored on the blockchain. The Smart Contract defines the interface (actions, parameters, data structures) and the code that implements the interface. The code is compiled for WebAssembly, that nodes can execute.
 
 
@@ -43,6 +45,7 @@ An EOSIO Smart Contract is software registered on the blockchain and executed on
 
 
 ## Building an EOSIO Smart Contract
+
 Smart contract source code can be written in any language that the WASM (WebAssembly) compiler supports, EOSIO currently supports the C languages (C/C++).
 
 
@@ -56,14 +59,17 @@ A contract and an account communicate in the form of actions. Actions can be sen
 EOSIO.CDT is a toolchain for WebAssembly (WASM) and set of tools to facilitate contract writing for the EOSIO platform. In addition to being a general purpose WebAssembly toolchain, EOSIO specific optimizations are available to support building EOSIO smart contracts.
 
 #### Nodeos:
+
 Nodeos is the core EOSIO node daemon. Plugins can be used to configure nodeos to execute with various features. Nodeos handles all peer-to-peer networking, contract code scheduling, and the blockchain data persistence layer.
 
 #### Cleos/Keosd:
+
 Keosd is a key manager for EOSIO accounts that comes with EOSIO. Cleos is a command-line tool which let developers interact nodeos as well as deploy, test EOSIO smart contracts.
  
 
 
 ## EOSJS
+
 A Javascript API SDK for integration with EOSIO-based blockchains using the EOSIO RPC API.
 
 
