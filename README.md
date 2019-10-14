@@ -17,7 +17,7 @@ Smart Contract aims to provide a novel blockchain solution to meet the speed and
 
 
 
-## Token Economy
+### Token Economy
 
 
 #### NET token usage, utility and value:
