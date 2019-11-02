@@ -1,5 +1,5 @@
 
-# Nordic Energy´s
+# Nordic Energy
 
 
 
