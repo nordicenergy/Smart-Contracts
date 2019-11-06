@@ -1,0 +1,6 @@
+.DS_Store
+.nordicenergy/
+.vscode/
+stablecoin.wasm
+stablecooin.wast
+/stablecoin.wast.abi
