@@ -1,0 +1,19 @@
+version: 1
+jobs:
+  build:
+    image: node
+    script:
+      - yarn add --dev ganache-cli embark
+      - yarn install
+      - npx embark build
+  test:
+    image: node
+    script:
+      - yarn add --dev ganache-cli embark
+      - yarn install
+      - npx embark test
+stages:
+  - pipeline:
+      jobs:
+        - build
+        - test
